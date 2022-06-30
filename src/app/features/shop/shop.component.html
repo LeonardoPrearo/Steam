@@ -1,0 +1,28 @@
+<div class="shop-container">
+    <swiper [config]="config">
+      <div class="swiper-wrapper" >
+        <div class="swiper-slide" *ngFor="let game of gamesList">
+          <div class="game-slide">
+            <div class="game-img" [style.background-image]="'url('+game.img+')'">
+            </div>
+            <div class="game-info-card">
+              <div class="h2-container">
+                <h2>{{game.name}}</h2>
+              </div>
+              <div class="list-container">
+                <ul class="categories-list" *ngFor="let category of game.categories">
+                  <li>{{category}}</li>
+                </ul>
+              </div>
+              <button class="game-price">
+                <img src="assets/shopping-bag-svgrepo-com.svg" alt=""> {{game.price}} $</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </swiper>
+  <div class="games-cards">
+
+  </div>
+</div>
+

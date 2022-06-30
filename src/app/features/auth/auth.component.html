@@ -1,0 +1,18 @@
+<div class="auth-page">
+  <div class="form-container">
+    <h2>Login</h2>
+    <form [formGroup]="loginForm" (ngSubmit)="submit()">
+      <div class="input-container">
+        <label>Email</label>
+        <input type="email" name="email" formControlName="email">
+      </div>
+      <div class="input-container">
+        <label>Password</label>
+        <input type="password" name="password" formControlName="password">
+      </div>
+      <div class="button-container">
+        <button type="submit">Login</button>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,53 @@
+.auth-page{
+  color: white;
+  position: relative;
+  top: calc(70vh/2);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  .form-container{
+    background-color: rgb(20, 32, 44);
+    border-radius: 30px;
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      height: 12rem;
+      .input-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        input{
+          background-color: rgb(50, 53, 60);
+          border-radius: 5px;
+          border: transparent solid 1px;
+          color: white;
+        }
+        input:focus{
+          outline: black solid 2px;
+        }
+        label{
+          padding-bottom: 0.3rem;
+          font-size: 0.8rem;
+        }
+      }
+      .button-container{
+        button{
+          color: white;
+          background: linear-gradient(90deg, rgba(57,137,255,1) 0%, rgba(51,135,228,1) 94%);
+          border: transparent solid 1px;
+          border-radius: 3px;
+          width: 10.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+  }
+}

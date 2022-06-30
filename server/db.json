@@ -1,0 +1,57 @@
+{
+  "Games": [{
+    "id": 1,
+    "name": "Ace Combat 7: Skies unknown",
+    "categories": [
+      "Flight","Arcade","War"
+    ],
+    "price": 11.99,
+    "img":"assets/AceCombat.jpg"
+  },
+    {
+      "id": 2,
+      "name": "Elite Dangerous",
+      "categories": [
+        "Space","Action"
+      ],
+      "price": 6.24,
+      "img":"assets/EliteDangerous.jpg"
+    },
+    {
+      "id": 3,
+      "name": "F1 2022",
+      "categories": [
+        "Races","Sport","Multiplayer"
+      ],
+      "price": 59.99,
+      "img":"assets/F12022.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Starfield",
+      "categories": [
+        "Space","Action","GDR"
+      ],
+      "price": 69.99,
+      "img":"assets/Starfield.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Cyberpunk 2077",
+      "categories": [
+        "GDR","Action","Cyberpunk"
+      ],
+      "price": 29.99,
+      "img":"assets/Cyberpunk2077.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Sea of Thieves",
+      "categories": [
+        "Adventure","Multiplayer","Pirates"
+      ],
+      "price": 19.99,
+      "img":"assets/SeaOfThieves.jpg"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+ swiper {
+   color: white;
+    .swiper-wrapper{
+      .swiper-slide{
+        display: flex;
+        justify-content: center;
+        .game-slide{
+          display: flex;
+          grid-template-columns: 50% 50%;
+          column-gap: 0.5rem;
+          .game-img{
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 250px;
+            width: 250px;
+            border-radius:60px;
+          }
+          .game-info-card{
+            width: 300px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 60px;
+            background: rgb(20, 32, 44);
+            .h2-container{
+              position: relative;
+              top: -3rem;
+
+            }
+            .list-container{
+              width: 250px;
+              display: flex;
+              justify-content: space-evenly;
+              li{
+                background: rgb(42, 63, 89);
+                border:rgb(42, 63, 89) solid 4px;
+                border-radius: 10px;
+              }
+            }
+            .game-price{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              position: relative;
+              bottom: -3rem;
+              color: white;
+              background: linear-gradient(90deg, rgba(57, 137, 255, 1) 0%, rgba(51, 135, 228, 1) 94%);
+              border: transparent solid 1px;
+              border-radius: 3px;
+              width: 7rem;
+              height: 1.5rem;
+              img{
+                position: relative;
+                left: -0.5rem;
+                align-self: flex-start;
+                height: 1rem;
+                width: 1rem;
+                filter: brightness(0) saturate(100%) invert(100%) sepia(6%) saturate(1852%) hue-rotate(207deg) brightness(100%) contrast(100%);
+              }
+            }
+          }
+        }
+      }
+    }
+ }
